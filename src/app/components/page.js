@@ -1,13 +1,13 @@
 // app/page.js
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import MessageList from './components/MessageList';
-import Notification from './components/Notification';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import MessageList from '../components/MessageList';
+import Notification from '../components/Notification';
 import styles from './page.module.css';
 
-export default function Home() {
+ function Home() {
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
   const [messages, setMessages] = useState([]);

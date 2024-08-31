@@ -1,0 +1,62 @@
+/* styles/Home.module.css */
+.container {
+    text-align: center;
+  }
+  
+  .categories {
+    margin-bottom: 20px;
+  }
+  
+  .categories button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .categories button:hover {
+    background-color: #005bb5;
+  }
+  
+  .messageList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .messageForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .messageForm input,
+  .messageForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .messageForm button {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .messageForm button:hover {
+    background-color: #005bb5;
+  }
+  
